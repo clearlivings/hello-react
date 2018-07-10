@@ -1,0 +1,67 @@
+body {
+    background: #f1f1f1;
+}
+input,textarea {
+    width: 360px;
+    border: 1px solid #dcd7d7;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+textarea {
+    height: 150px;
+    resize: none;
+    padding: 0;
+}
+.comment-content {
+    margin: 15px auto;
+    width: 600px;
+    background: #fff;
+}
+/* 用户输入区域 */
+.user-input-area {
+    margin: 0 auto;
+    width: 460px;
+}
+.user-input-area span {
+    font-weight: 700;
+}
+.input-field ,.textarea-field{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.input-field input,.textarea-field textarea {
+    padding-left: 10px;
+    box-sizing: border-box; 
+}
+.input-field input, .input-field span,.textarea-field {
+    margin-top: 15px;
+}
+.btn-submit {
+    text-align: center;
+}
+.btn-submit button {
+    margin: 15px auto;
+    border: none;
+    width: 60px;
+    height: 30px;
+    border-radius: 3px;
+    color: #fff;
+    background: #1e80f9;
+    font-weight: bold;
+}
+
+
+.comment-list li {
+    margin: 0 auto;
+    width: 460px;
+    height: 60px;
+    line-height: 60px;
+    border-bottom: 1px solid #f1f1f1;
+}
+.comment-list li span.username {
+    font-weight: 700;
+    margin-right: 15px;
+}
